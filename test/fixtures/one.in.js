@@ -1,8 +1,7 @@
 let bravo
 
 gulp.src('src')
-  .start('')
-  .middle('a')
-  .end('')
-  .dest('dist')
-
+	.start('')
+	.middle('a')
+	.end('')
+	.dest('dist')

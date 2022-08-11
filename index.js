@@ -41,7 +41,6 @@ export default function ({ types: t }) {
 				if (!hasRoot) return
 
 				let { callee, args } = node
-				// TODO: use ??
 				args = args || []
 
 				// only act on callee `Expression`s that are `MemberExpression`s
@@ -57,7 +56,7 @@ export default function ({ types: t }) {
 				// ulp.rc("src'")
 				const gulpSrc = t.callExpression(
 					t.memberExpression(t.identifier('ulp'), t.identifier('rc')),
-					[t.stringLiteral('src')]
+					[t.stringLiteral('src')],
 				)
 
 				//

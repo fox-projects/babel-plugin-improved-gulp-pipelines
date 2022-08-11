@@ -1,8 +1,9 @@
 {
 	"name": "babel-improved-gulp-pipelines",
-	"description": "transpiles gulp to pipes in specific gulp case",
+	"description": "Transpiles gulp to pipes in specific gulp case",
 	"author": "Edwin Kofler",
 	"license": "MIT",
+	"type": "module",
 	"keywords": [
 		"babel",
 		"plugin",
@@ -15,15 +16,9 @@
 		"format": "prettier --write '**/*'",
 		"test": "ava '**/*.test.js'"
 	},
-	"ava": {
-		"require": [
-			"esm"
-		]
-	},
 	"devDependencies": {
-		"@babel/core": "^7.9.0",
-		"ava": "^3.5.1",
-		"esm": "^3.2.25",
+		"@babel/core": "^7.18.10",
+		"ava": "^4.3.1",
 		"prettier": "^2.0.2"
 	},
 	"peerDependencies": {

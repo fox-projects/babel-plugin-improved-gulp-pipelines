@@ -18,8 +18,11 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.10",
+		"@hyperupcall/markdownlint-config": "^0.2.0",
+		"@hyperupcall/prettier-config": "^0.7.0",
 		"ava": "^4.3.1",
-		"prettier": "^2.0.2"
+		"prettier": "^3.0.3",
+		"prettier-plugin-pkg": "^0.18.0"
 	},
 	"peerDependencies": {
 		"@babel/core": "^7.0.0-0"

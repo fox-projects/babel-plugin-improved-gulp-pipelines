@@ -30,7 +30,7 @@ function findRoot(t, callExpression) {
 	return findRoot(t, nestedCallExpression)
 }
 
-export default function ({ types: t }) {
+module.exports = function babelPluginImprovedGulpPipelines({ types: t }) {
 	return {
 		name: 'babel-plugin-improved-gulp-pipelines',
 		visitor: {

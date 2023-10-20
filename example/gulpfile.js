@@ -1,8 +1,8 @@
-import { src, dest } from 'gulp'
-import plumber from 'gulp-plumber'
-import sourcemaps from 'gulp-sourcemaps'
-import postcss from 'gulp-postcss'
-import rename from 'gulp-rename'
+const { src, dest } = require('gulp')
+const plumber = require('gulp-plumber')
+const sourcemaps = require('gulp-sourcemaps')
+const postcss = require('gulp-postcss')
+const rename = require('gulp-rename')
 
 async function minifyCss() {
 	src('style.css')
@@ -14,4 +14,5 @@ async function minifyCss() {
 		.dest('.')
 }
 
-export { minifyCss, minifyCss as default }
+exports.default = minifyCss
+exports.minifyCss = minifyCss

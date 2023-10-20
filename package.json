@@ -3,7 +3,6 @@
 	"description": "Transpiles gulp to pipes in specific gulp case",
 	"author": "Edwin Kofler",
 	"license": "MIT",
-	"type": "module",
 	"keywords": [
 		"babel",
 		"plugin",

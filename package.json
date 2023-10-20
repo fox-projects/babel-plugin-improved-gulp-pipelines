@@ -17,7 +17,7 @@
 		"test": "ava '**/*.test.js'"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.18.10",
+		"@babel/core": "^7.23.2",
 		"@hyperupcall/markdownlint-config": "^0.2.0",
 		"@hyperupcall/prettier-config": "^0.7.0",
 		"ava": "^4.3.1",
